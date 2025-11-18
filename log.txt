@@ -1,3 +1,4 @@
+c84f6ba Final: tasks 1–2 complete, tests green, checkstyle clean, log updated
 eb1fdee Task 2 log
 6faa25e Task 1&2: fix DeclarationOrder/RightCurly, add Javadoc tags, replace magic number with constant
 ff5004e adding shortcut keys for Inline Variable (Re: Piazza question)
