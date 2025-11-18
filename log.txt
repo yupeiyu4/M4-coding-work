@@ -1,3 +1,9 @@
+98abf27 Task 2.4
+2f67a13 Task 2.3
+480f326 Task 2.2
+a6ffd8d Task 2.1
+3f81de9 Task 1.1
+bce7af7 Update log.txt for submission
 c84f6ba Final: tasks 1–2 complete, tests green, checkstyle clean, log updated
 eb1fdee Task 2 log
 6faa25e Task 1&2: fix DeclarationOrder/RightCurly, add Javadoc tags, replace magic number with constant
