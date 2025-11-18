@@ -131,4 +131,31 @@ public class StatementPrinter {
         return NumberFormat.getCurrencyInstance(Locale.US)
                 .format(amountInCents / (double) Constants.CENTS_PER_DOLLAR);
     }
+    /**
+     * Computes the total amount (in cents) over all performances.
+     *
+     * @return total amount in cents
+     */
+
+    private int getTotalAmount() {
+        int total = 0;
+        for (final Performance performance : invoice.getPerformances()) {
+            total += getAmount(performance);
+        }
+        return total;
+    }
+
+    /**
+     * Computes the total volume credits over all performances.
+     *
+     * @return total volume credits
+     */
+    private int getTotalVolumeCredits() {
+        int total = 0;
+        for (final Performance performance : invoice.getPerformances()) {
+            total += getVolumeCredits(performance);
+        }
+        return total;
+    }
+
 }
